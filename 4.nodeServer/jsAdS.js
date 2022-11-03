@@ -12,4 +12,4 @@ http
     resp.write(TextData);
     resp.end();
   })
-  .listen(port,hostName, () => {console.log(`serverRunning......click to Open: http://${hostName}:${port}`)});
+  .listen(port,hostName, () => console.log(`serverRunning......click to Open: http://${hostName}:${port}`));
